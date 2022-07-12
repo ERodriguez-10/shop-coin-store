@@ -1,0 +1,25 @@
+.body-catalog {
+  background-color: #dddddd;
+}
+
+.grid-template {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 90px 0 90px 0;
+  max-width: 960px;
+}
+
+@media screen and (min-width: 1200px) {
+  .grid-template {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (min-width: 760px) and (max-width: 1199px) {
+  .grid-template {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+  background-color: #f8f6f9;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+}

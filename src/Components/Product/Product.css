@@ -1,0 +1,56 @@
+.container {
+  background-color: white;
+  width: 90%;
+  padding: 15px;
+  margin: auto;
+}
+
+.container:hover {
+  box-shadow: 10px 10px 5px gray;
+}
+
+.img-product:hover {
+  transition: width ease 0.5s;
+  width: 142px;
+}
+
+p {
+  color: black;
+  font-size: 18px;
+}
+
+.title {
+  color: black;
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.info-container {
+  margin-top: 15px;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  margin: 5px 0 20px 0;
+}
+
+.canBuy {
+  background-color: green;
+  cursor: pointer;
+}
+
+.disabled {
+  background-color: red;
+  cursor: not-allowed;
+}
+
+.btn {
+  display: block;
+  color: white;
+  font-size: 14px;
+  margin: 0 auto;
+  padding: 5px 16px;
+  border: none;
+}

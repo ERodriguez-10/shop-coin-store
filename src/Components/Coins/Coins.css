@@ -1,0 +1,24 @@
+.wallet-info {
+  background-color: gray;
+  padding: 15px 0;
+  font-size: 22px;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.wallet-info h2 {
+  font-size: 22px;
+}
+
+.gold-coins {
+  color: green;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.bag {
+  display: flex;
+  justify-content: center;
+  margin: 2px 0;
+}

@@ -1,0 +1,23 @@
+h1,
+p {
+  font-family: "Roboto", sans-serif;
+  color: green;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  background-color: white;
+  width: 100%;
+}
